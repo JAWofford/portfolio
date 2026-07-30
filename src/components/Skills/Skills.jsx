@@ -1,15 +1,15 @@
-import Pill from './Pill';
+import Pill from '../Pill/Pill';
 import './Skills.css';
 
-const skills = ['Java', 'Spring Boot', 'React', 'MySQL', 'JavaScript', 'HTML', 'CSS', 'Git & GitHub'];
+const skills = ['Java', 'Spring Boot', 'JavaScript', 'React', 'MySQL', 'REST APIs', 'HTML', 'CSS', 'Git & GitHub'];
 
 export default function Skills() {
   return (
-    <section className="skills-section">
-      <h2>Skills</h2>
+    <section className="skills-section" id="skills">
+      <h2 className="skills-title">Skills</h2>
       <div className="skills-grid">
         {skills.map((skill) => (
-          <Pill key={skill} name={skill} />
+          <Pill key={skill} name={skill} type="skill" />
         ))}
       </div>
     </section>

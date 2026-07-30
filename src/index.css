@@ -3,15 +3,19 @@
 body {
   font-family: 'Poppins', sans-serif;
   color: var(--color-text);
+  background-color: var(--color-text);
+
 }
 :root {
 
---color-background: #211914;   /* deep warm charcoal-brown header */
---color-surface: #3d2a38;      /* plum-toned circle fill */
---color-primary: #e0a72e;      /* gold — border animation & links accent */
---color-text: #f5ece8;         /* warm cream text */
---color-text-muted: #bfa6ae;   /* muted mauve-tan (subtitle) */
-
+--color-background: #211914;   
+--color-surface: #3d2a38;     
+--color-primary: #e0a72e;      
+--color-text: #f5ece8;         
+--color-text-muted: #bfa6ae;   
+--color-title: #6e5e65;
+--color-title-light: #8f7c85;
+--color-pill-background: #a3919a;
 
   @media (max-width: 1024px) {
     font-size: 16px;

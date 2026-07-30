@@ -1,5 +1,6 @@
 import Nav from './components/Navigation/Nav'
 import Hero from './components/Hero/Hero'
+import Skills from './components/Skills/Skills'
 
 import './App.css'
 
@@ -10,11 +11,13 @@ return (
     <Nav/>
     <Hero/>
     </header>
-
+    
+    <div className="container">
+    <Skills/>
  
-  
-    <h3>Project Cards Go Here</h3>
-   </div>
+    </div>
+    
+  </div>
 )  
 
 }
