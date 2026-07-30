@@ -1,9 +1,9 @@
-import './Pill.css';
+import "./Pill.css"
 
-export default function Pill({ type, label}) {
+export default function Pill({ type, name}) {
     return (
         <span className={`pill pill-${type}`}>
-            {label}
+            {name}
         </span>
     );
 }
