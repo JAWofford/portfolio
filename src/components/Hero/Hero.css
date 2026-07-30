@@ -1,0 +1,38 @@
+
+
+.hero-div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: center;
+  background-color: var(--color-background);
+  color: var(--color-text);
+  padding-right: 40px;
+}
+.hero-title {
+  font-weight: 600;  /* or 700 if you want it bolder */
+  color: var(--color-text);
+  margin: 0 0 4px;
+}
+
+.hero-tagline{
+  color: var(--color-text-muted);
+  margin: 0 0 1.5rem;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem; /* space between GitHub/LinkedIn/Email */
+  
+}
+
+.links a {
+  color: var(--color-text);
+  font-size: 24px;
+  transition: color 0.2s ease;
+}
+
+.links a:hover {
+  color: var(--color-primary);
+}
