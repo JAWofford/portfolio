@@ -1,0 +1,61 @@
+.project-content{
+padding: 20px;
+  margin: 10px 0px 10px;
+  width: 100%;
+  background-color: whitesmoke;
+  border: 1px solid var(--color-title);
+  border-radius: 10px;
+}
+
+.project-title-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.project-title {
+    color: var(--color-background);
+    font-size: 24px;
+}
+.project-subheading {
+    color: var(--color-title);
+    padding: 5px 20px 10px 0px;
+    font-size: 14px;
+}
+.project-pills {
+    padding: 0px 0px 15px;
+}
+.project-desc {
+    color: var(--color-surface);
+}
+
+.project-image {
+   display: block;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.project-desc {
+    margin-bottom: 15px;
+}
+
+.project-links {
+  display: flex;
+  gap: 16px;
+  margin-top: 12px;
+}
+
+.project-links a {
+  color: var(--color-primary-dark);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  border: 1px solid var(--color-primary-dark);
+  border-radius: 999px;
+  padding: 6px 16px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.project-links a:hover {
+  background-color: var(--color-primary);
+  color: var(--color-background);
+}

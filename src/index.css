@@ -10,12 +10,14 @@ body {
 
 --color-background: #211914;   
 --color-surface: #3d2a38;     
---color-primary: #e0a72e;      
+--color-primary: #e0a72e;    
+--color-primary-dark: #9c6f1a;  
 --color-text: #f5ece8;         
 --color-text-muted: #bfa6ae;   
 --color-title: #6e5e65;
 --color-title-light: #8f7c85;
 --color-pill-background: #a3919a;
+
 
   @media (max-width: 1024px) {
     font-size: 16px;
