@@ -13,8 +13,9 @@ export default function Nav() {
             <a href="#about">About</a>
             <a href="#projects">Projects</a>
             <a href="#skills">Skills</a>
-            <a href="#top">Top</a>
             </div>
+
+            <a href="#top" className="floating-top">Top</a>
             
        </div>
     )

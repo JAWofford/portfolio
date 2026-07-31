@@ -5,8 +5,8 @@ const skills = ['Java', 'Spring Boot', 'JavaScript', 'React', 'MySQL', 'REST API
 
 export default function Skills() {
   return (
-    <section className="skills-section" id="skills">
-      <h2 className="skills-title">Skills</h2>
+    <section className="section" id="skills">
+      <h2 className="section-title">Skills</h2>
       <div className="skills-grid">
         {skills.map((skill) => (
           <Pill key={skill} name={skill} type="skill" />
