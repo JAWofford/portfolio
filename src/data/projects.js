@@ -8,7 +8,9 @@ const projects = [
   techStack: ['React', 'JavaScript', 'React Router', 'CSS'],
   image: '/thumbnail.png',
   imageAlt: 'Park search results page showing a list of national parks',
-  githubUrl: 'https://github.com/JAWofford/park-planner',
+   githubUrls: [
+    { label: 'Repo', url: 'https://github.com/JAWofford/park-planner' },
+  ],
   liveUrl: 'https://parkplanner26.netlify.app',
 },
 
@@ -20,7 +22,10 @@ const projects = [
   techStack: ['React', 'Spring Boot', 'Spring Security', 'MySQL', 'JavaScript'],
   image: '/adventure-log-thumbnail.png',
   imageAlt: 'Adventure Log landing page',
-  githubUrl: 'https://github.com/JAWofford/adventure-log',
+   githubUrls: [
+    { label: 'Frontend', url: 'https://github.com/JAWofford/adventure-log-frontend' },
+    { label: 'Backend', url: 'https://github.com/JAWofford/adventure-log-backend' },
+  ],
 },
   
 ];

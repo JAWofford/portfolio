@@ -22,9 +22,13 @@ export default function ProjectCard({ project }) {
           ))}
         </div>
          <p className="project-desc">{project.description}</p>
-         <img src={project.image} alt={project.imageAlt} className="project-image" />
+        <img src={project.image} alt={project.imageAlt} className="project-image" />
         <div className="project-links">
-          <a href={project.githubUrl} target="_blank" rel="noopener">GitHub</a>
+          {project.githubUrls.map((repo) => (
+            <a key={repo.url} href={repo.url} target="_blank" rel="noopener">
+              {repo.label}
+            </a>
+          ))}
           {project.liveUrl && <a href={project.liveUrl} target="_blank" rel="noopener">Live Demo</a>}
         </div>
       </div>
